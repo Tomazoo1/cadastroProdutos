@@ -31,7 +31,7 @@ function mostrarProdutos() {
                 <img src="${produto.foto}" alt="Imagem do produto"></img>
                 <div class="produto-info">
                     <h3> ${produto.nome} - ${produto.marca}</h3>
-                    <p> <strong>Preço: </strong> R$ ${parseFloat(produto.preco).toFixed(2)} </p>
+                    <p> <strong> Preço: </strong> R$ ${parseFloat(produto.preco).toFixed(2)} </p>
                     <p> ${produto.descricao}</p>
                 </div>
             </div>
